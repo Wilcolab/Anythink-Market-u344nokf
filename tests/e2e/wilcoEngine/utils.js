@@ -1,5 +1,5 @@
 const { expect } = require("@jest/globals");
-const { sleep } = require("../../utils");
+const { sleep } = require("../utils");
 const { subscribe, unsubscribe } = require("./wilcoEngineEvents");
 
 const execAndWaitForEvent = async (eventType, func, maxTime = 500) => {
